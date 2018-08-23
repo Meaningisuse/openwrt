@@ -685,7 +685,7 @@ define Device/tl-wr842n-v1
 endef
 
 define Device/tl-wr842n-v2
-    $(Device/tplink-8mlzma)
+    $(Device/tplink-16mlzma)
     DEVICE_TITLE := TP-LINK TL-WR842N/ND v2
     DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-ledtrig-usbport
     BOARDNAME := TL-WR842N-v2
