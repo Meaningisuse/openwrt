@@ -1,15 +1,15 @@
 
 config ssrpro
 	option gfwlist 'china-banned'
-	option server_port '23143'
-	option password 'test.TEST'
-	option protocol 'origin'
+	option server_port '443'
+	option password 'Shadowsocks'
+	option protocol 'auth_chain_a'
 	option obfs 'plain'
 	option proxy_mode 'M'
 	option safe_dns_tcp '1'
 	option cron_mode '1'
-	option method 'rc4-md5'
-	option server '4.4.4.4'
+	option method 'none'
+	option server 'meaningisuse.ml'
 	option enabled '0'
 	option more '0'
 
